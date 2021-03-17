@@ -1,0 +1,19 @@
+type Query{
+  getDeviceDetails : [Device]
+ }
+ 
+ 
+ type Device{
+   serialNumber : String 
+   status: Status
+   description : String 
+   make : String 
+   model : String 
+   color : String
+   capacity : String 
+   category : String 
+ }
+ 
+ type Status{
+  status: String
+ }
